@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f0f4f8;
+  color: #222;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+header {
+  background-color: #004d99;
+  padding: 1rem;
+  text-align: center;
+  color: white;
+}
+
+header h1 {
+  margin-bottom: 0.5rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+nav button {
+  background-color: #ffcc00;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-weight: bold;
+}
+
+nav button:hover {
+  background-color: #e6b800;
+}
+
+.cronometro {
+  background-color: white;
+  max-width: 600px;
+  margin: 2rem auto;
+  text-align: center;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+#display {
+  font-size: 3rem;
+  margin: 1rem 0;
+  color: #004d99;
+}
+
+.controles button {
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #00b386;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.controles button:hover {
+  background-color: #009973;
+}
+
+main {
+  max-width: 900px;
+  margin: auto;
+  padding: 1rem;
+}
+
+.secao {
+  background-color: white;
+  padding: 1.5rem;
+  margin: 2rem 0;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+footer {
+  background-color: #00264d;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+

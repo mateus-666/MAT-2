@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estudos na Alura</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Estudos na Alura</h1>
+    <nav>
+      <ul>
+        <li><button onclick="irPara('frontend')">Front-End</button></li>
+        <li><button onclick="irPara('dados')">Ciência de Dados</button></li>
+        <li><button onclick="irPara('gestao')">Gestão e Soft Skills</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="cronometro">
+    <h2>Tempo de Foco</h2>
+    <div id="display">00:00:00</div>
+    <div class="controles">
+      <button onclick="iniciar()">Começar</button>
+      <button onclick="parar()">Pausar</button>
+      <button onclick="zerar()">Zerar</button>
+    </div>
+  </section>
+
+  <main>
+    <section id="frontend" class="secao">
+      <h2>Front-End</h2>
+      <p>Domine HTML, CSS, JavaScript, React e muito mais.</p>
+    </section>
+
+    <section id="dados" class="secao">
+      <h2>Ciência de Dados</h2>
+      <p>Aprenda Python, SQL, análise de dados, IA e machine learning.</p>
+    </section>
+
+    <section id="gestao" class="secao">
+      <h2>Gestão & Soft Skills</h2>
+      <p>Desenvolva liderança, comunicação e metodologias ágeis.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 - Estudos na Alura</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
+
